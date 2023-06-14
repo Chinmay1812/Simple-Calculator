@@ -12,7 +12,6 @@ Array.from(buttons).forEach((button)=>{
         else if(e.target.innerHTML=='=')
         {
             string=eval(string);
-            console.log(string);
             document.querySelector('input').value=string;
             string="";
         }
